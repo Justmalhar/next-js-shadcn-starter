@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react"
 
 // Import JSON data directly
 import companyData from '../app_data.json';
@@ -67,6 +68,7 @@ export default function RootLayout({
         style={{ backgroundColor: 'var(--brand-dark)', color: 'var(--brand-text-light)' }}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
