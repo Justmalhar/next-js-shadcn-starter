@@ -1,6 +1,10 @@
-# Next.js Landing Page Template with shadcn/ui
+# Next.js SaaS Landing Page Template with shadcn/ui
 
 This is a modern landing page template built with Next.js and shadcn/ui components. The landing page is dynamically populated from a JSON file, making it easy to customize without changing the code.
+
+## Demo
+
+![Demo Landing Page](/public/demo.png)
 
 ## Features
 
