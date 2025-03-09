@@ -2,9 +2,7 @@ import * as React from "react"
 
 import { cn } from "@/lib/utils"
 
-export interface CodeProps extends React.HTMLAttributes<HTMLPreElement> {}
-
-const Code = React.forwardRef<HTMLPreElement, CodeProps>(
+const Code = React.forwardRef<HTMLPreElement, React.HTMLAttributes<HTMLPreElement>>(
   ({ className, ...props }, ref) => {
     return (
       <pre

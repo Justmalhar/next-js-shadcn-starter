@@ -142,7 +142,7 @@ export default function GettingStartedPage() {
             <h2 className="text-2xl font-bold text-white">Deploy your chatbot</h2>
           </div>
           <p className="text-gray-300 mb-6 pl-11">
-            Once you're satisfied with your chatbot, it's time to deploy it:
+            Once you&apos;re satisfied with your chatbot, it&apos;s time to deploy it:
           </p>
           <ul className="space-y-3 mb-6 pl-11">
             {[
@@ -166,7 +166,7 @@ export default function GettingStartedPage() {
                 <div>
                   <h3 className="text-white font-medium mb-2">Next Steps</h3>
                   <p className="text-gray-400">
-                    After deployment, monitor your chatbot's performance in the analytics dashboard and make adjustments as needed.
+                    After deployment, monitor your chatbot&apos;s performance in the analytics dashboard and make adjustments as needed.
                   </p>
                 </div>
               </div>

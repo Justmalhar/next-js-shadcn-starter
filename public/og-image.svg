@@ -1,0 +1,203 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <rect width="1200" height="630" fill="#0A0A0A" />
+  <rect width="1200" height="630" fill="url(#background-gradient)" />
+
+  <!-- Gradients and patterns -->
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="background-gradient" x1="600" y1="0" x2="600" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A0A0A" />
+      <stop offset="1" stop-color="#111111" />
+    </linearGradient>
+
+    <!-- Purple accent gradient -->
+    <linearGradient id="purple-gradient" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4F46E5" />
+      <stop offset="1" stop-color="#7C74FF" />
+    </linearGradient>
+
+    <!-- Button gradient -->
+    <linearGradient id="button-gradient" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4F46E5" />
+      <stop offset="1" stop-color="#4338CA" />
+    </linearGradient>
+
+    <!-- Subtle bubble pattern -->
+    <pattern id="bubble-pattern" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M60 40C60 26.7452 48.8071 16 35 16C21.1929 16 10 26.7452 10 40C10 44.1468 11.2 48.0385 13.7319 51C12.4 54 10 55 10 55C10 55 16 55 20 52C24.9237 53.8273 29.9392 55 35 55C48.8071 55 60 44.7614 60 40Z" fill="#4F46E5" opacity="0.05"/>
+    </pattern>
+
+    <!-- Glow effect -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Soft shadow -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Pattern Background -->
+  <rect width="1200" height="630" fill="url(#bubble-pattern)" opacity="0.8" />
+
+  <!-- Subtle grid lines -->
+  <g opacity="0.05">
+    <line x1="0" y1="100" x2="1200" y2="100" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="0" y1="300" x2="1200" y2="300" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="0" y1="400" x2="1200" y2="400" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="0" y1="500" x2="1200" y2="500" stroke="#FFFFFF" stroke-width="1" />
+    
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#FFFFFF" stroke-width="1" />
+  </g>
+
+  <!-- Navigation Bar -->
+  <g transform="translate(0, 0)">
+    <rect width="1200" height="60" fill="#0A0A0A" />
+    
+    <!-- Logo -->
+    <g transform="translate(50, 15)">
+      <g transform="scale(0.8)">
+        <rect width="32" height="32" rx="8" fill="#0A0A0A"/>
+        <path d="M24 14C24 10.6863 20.4183 8 16 8C11.5817 8 8 10.6863 8 14C8 15.5367 8.8 16.9385 10.1319 18C9.4 19.5 8 20 8 20C8 20 11 20 13 18.5C13.9237 18.8273 14.9392 19 16 19C20.4183 19 24 16.7614 24 14Z" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M16 24C18.2091 24 20 22.2091 20 20C20 17.7909 18.2091 16 16 16C13.7909 16 12 17.7909 12 20C12 22.2091 13.7909 24 16 24Z" fill="#4F46E5"/>
+        <path d="M14 13H18" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <path d="M14 16H18" stroke="white" stroke-width="2" stroke-linecap="round"/>
+      </g>
+      <text x="40" y="20" font-size="18" font-family="system-ui, sans-serif" font-weight="bold" fill="white">ChatScale</text>
+    </g>
+    
+    <!-- Nav Links -->
+    <g transform="translate(200, 30)">
+      <text x="0" y="0" font-size="14" font-family="system-ui, sans-serif" fill="white" opacity="0.8">About</text>
+      <text x="60" y="0" font-size="14" font-family="system-ui, sans-serif" fill="white" opacity="0.8">Blog</text>
+      <text x="120" y="0" font-size="14" font-family="system-ui, sans-serif" fill="white" opacity="0.8">Services</text>
+      <text x="190" y="0" font-size="14" font-family="system-ui, sans-serif" fill="white" opacity="0.8">Docs</text>
+      <text x="240" y="0" font-size="14" font-family="system-ui, sans-serif" fill="white" opacity="0.8">Contact</text>
+    </g>
+    
+    <!-- CTA Button in Nav -->
+    <g transform="translate(1050, 15)">
+      <rect width="100" height="30" rx="4" fill="url(#button-gradient)" />
+      <text x="50" y="20" font-size="12" font-family="system-ui, sans-serif" fill="white" text-anchor="middle">Book a demo</text>
+    </g>
+  </g>
+
+  <!-- Decorative elements similar to UI -->
+  <circle cx="280" cy="100" r="4" fill="#4F46E5" opacity="0.6" />
+  <circle cx="300" cy="100" r="4" fill="#4F46E5" opacity="0.8" />
+  <circle cx="320" cy="100" r="4" fill="#4F46E5" />
+  
+  <!-- Client count indicator -->
+  <text x="350" y="104" font-size="16" font-family="system-ui, sans-serif" fill="white" opacity="0.7">115+ happy clients</text>
+
+  <!-- Main Content Container -->
+  <g transform="translate(100, 140)">
+    <!-- Company Name -->
+    <text x="0" y="0" font-size="36" font-family="system-ui, sans-serif" font-weight="normal" fill="#4F46E5">ChatScale</text>
+    
+    <!-- Headline with highlighted word -->
+    <text x="0" y="80" font-size="64" font-family="system-ui, sans-serif" font-weight="bold" fill="white">Ready to </text>
+    <text x="250" y="80" font-size="64" font-family="system-ui, sans-serif" font-weight="bold" fill="url(#purple-gradient)">transform</text>
+    <text x="480" y="80" font-size="64" font-family="system-ui, sans-serif" font-weight="bold" fill="white"> your</text>
+    
+    <text x="0" y="150" font-size="64" font-family="system-ui, sans-serif" font-weight="bold" fill="white">business with AI chatbots?</text>
+
+    <!-- Description -->
+    <text x="0" y="210" font-size="20" font-family="system-ui, sans-serif" fill="white" opacity="0.8">If you want to achieve ground-breaking efficiency with improved customer</text>
+    <text x="0" y="240" font-size="20" font-family="system-ui, sans-serif" fill="white" opacity="0.8">engagement and support automation, then you're in the right place.</text>
+
+    <!-- CTA Buttons -->
+    <g filter="url(#shadow)">
+      <rect x="0" y="280" width="140" height="45" rx="8" fill="url(#button-gradient)" />
+      <text x="70" y="308" font-size="16" font-family="system-ui, sans-serif" fill="white" text-anchor="middle" font-weight="medium">Book a demo</text>
+    </g>
+    
+    <rect x="160" y="280" width="140" height="45" rx="8" fill="transparent" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+    <text x="230" y="308" font-size="16" font-family="system-ui, sans-serif" fill="white" text-anchor="middle" font-weight="medium">Learn More</text>
+  </g>
+
+  <!-- Chat Bubble Illustration -->
+  <g transform="translate(800, 200)">
+    <!-- Glowing effect behind the chat bubble -->
+    <circle cx="100" cy="100" r="120" fill="#4F46E5" opacity="0.1" filter="url(#glow)" />
+    
+    <!-- Chat Bubble Icon -->
+    <g transform="translate(50, 50) scale(4)" filter="url(#shadow)">
+      <rect width="32" height="32" rx="8" fill="#0A0A0A"/>
+      <path d="M24 14C24 10.6863 20.4183 8 16 8C11.5817 8 8 10.6863 8 14C8 15.5367 8.8 16.9385 10.1319 18C9.4 19.5 8 20 8 20C8 20 11 20 13 18.5C13.9237 18.8273 14.9392 19 16 19C20.4183 19 24 16.7614 24 14Z" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M16 24C18.2091 24 20 22.2091 20 20C20 17.7909 18.2091 16 16 16C13.7909 16 12 17.7909 12 20C12 22.2091 13.7909 24 16 24Z" fill="#4F46E5"/>
+      <path d="M14 13H18" stroke="white" stroke-width="2" stroke-linecap="round"/>
+      <path d="M14 16H18" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Animated typing dots -->
+    <g transform="translate(70, 150)">
+      <circle cx="0" cy="0" r="5" fill="white" opacity="0.4" />
+      <circle cx="15" cy="0" r="5" fill="white" opacity="0.6" />
+      <circle cx="30" cy="0" r="5" fill="white" opacity="0.8" />
+    </g>
+  </g>
+
+  <!-- Features Section Title -->
+  <g transform="translate(600, 450)">
+    <text x="0" y="0" font-size="28" font-family="system-ui, sans-serif" font-weight="bold" fill="white" text-anchor="middle">Our Services</text>
+    <line x1="-50" y1="15" x2="50" y2="15" stroke="#4F46E5" stroke-width="2" />
+  </g>
+
+  <!-- Features -->
+  <g transform="translate(250, 480)">
+    <!-- Feature 1 -->
+    <g transform="translate(0, 0)" filter="url(#shadow)">
+      <rect width="220" height="100" rx="8" fill="rgba(255,255,255,0.03)" />
+      <rect width="220" height="100" rx="8" fill="url(#purple-gradient)" opacity="0.05" />
+      <circle cx="40" cy="30" r="15" fill="rgba(79, 70, 229, 0.2)" />
+      <path d="M40 25V35M35 30H45" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" />
+      <text x="110" y="40" font-size="18" font-family="system-ui, sans-serif" fill="white" text-anchor="middle" font-weight="medium">Customer Support</text>
+      <text x="110" y="65" font-size="18" font-family="system-ui, sans-serif" fill="white" text-anchor="middle" font-weight="medium">Automation</text>
+    </g>
+    
+    <!-- Feature 2 -->
+    <g transform="translate(240, 0)" filter="url(#shadow)">
+      <rect width="220" height="100" rx="8" fill="rgba(255,255,255,0.03)" />
+      <rect width="220" height="100" rx="8" fill="url(#purple-gradient)" opacity="0.05" />
+      <circle cx="40" cy="30" r="15" fill="rgba(79, 70, 229, 0.2)" />
+      <path d="M35 30H45M40 25L45 30L40 35" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="110" y="40" font-size="18" font-family="system-ui, sans-serif" fill="white" text-anchor="middle" font-weight="medium">Lead Generation</text>
+      <text x="110" y="65" font-size="18" font-family="system-ui, sans-serif" fill="white" text-anchor="middle" font-weight="medium">Bots</text>
+    </g>
+    
+    <!-- Feature 3 -->
+    <g transform="translate(480, 0)" filter="url(#shadow)">
+      <rect width="220" height="100" rx="8" fill="rgba(255,255,255,0.03)" />
+      <rect width="220" height="100" rx="8" fill="url(#purple-gradient)" opacity="0.05" />
+      <circle cx="40" cy="30" r="15" fill="rgba(79, 70, 229, 0.2)" />
+      <path d="M35 30H45M35 25H45M35 35H45" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" />
+      <text x="110" y="40" font-size="18" font-family="system-ui, sans-serif" fill="white" text-anchor="middle" font-weight="medium">Multi-channel</text>
+      <text x="110" y="65" font-size="18" font-family="system-ui, sans-serif" fill="white" text-anchor="middle" font-weight="medium">Deployment</text>
+    </g>
+  </g>
+
+  <!-- Floating particles -->
+  <g opacity="0.5">
+    <circle cx="200" cy="350" r="2" fill="#4F46E5" />
+    <circle cx="350" cy="200" r="2" fill="#4F46E5" />
+    <circle cx="900" cy="400" r="2" fill="#4F46E5" />
+    <circle cx="1000" cy="150" r="2" fill="#4F46E5" />
+    <circle cx="750" cy="500" r="2" fill="#4F46E5" />
+    <circle cx="600" cy="250" r="2" fill="#4F46E5" />
+  </g>
+
+  <!-- URL with icon -->
+  <g transform="translate(600, 610)">
+    <path d="M-15 -5 A 5 5 0 0 1 -10 -10 H 10 A 5 5 0 0 1 15 -5 V 5 A 5 5 0 0 1 10 10 H -10 A 5 5 0 0 1 -15 5 Z" fill="rgba(79, 70, 229, 0.1)" />
+    <text x="0" y="4" font-size="14" font-family="monospace" fill="#4F46E5" text-anchor="middle" font-weight="medium">chatscale.com</text>
+  </g>
+</svg>

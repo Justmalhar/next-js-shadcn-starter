@@ -12,11 +12,6 @@ export default function DocsPage() {
   const docsNavItem = appData.navigation.links.find(link => link.text === "Docs");
   const docsPages = docsNavItem?.dropdownItems || [];
 
-  // Add error handling for images
-  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
-    e.currentTarget.src = "/hero-gradient.png"; // Fallback image
-  };
-
   return (
     <PageTemplate>
       <section className="py-16 md:py-24 px-4 md:px-6 lg:px-8">

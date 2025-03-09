@@ -20,6 +20,39 @@ export const metadata: Metadata = {
   title: `${companyData.companyName} - ${companyData.tagline}`,
   description: companyData.tagline,
   keywords: "ai chatbots, customer support automation, lead generation, conversational ai, chatbot platform",
+  icons: {
+    icon: [
+      {
+        url: '/logo.svg',
+        type: 'image/svg+xml',
+      }
+    ],
+    apple: [
+      {
+        url: '/logo.svg',
+        type: 'image/svg+xml',
+      }
+    ],
+  },
+  openGraph: {
+    title: companyData.companyName,
+    description: companyData.tagline,
+    images: [
+      {
+        url: '/og-image.svg',
+        width: 1200,
+        height: 630,
+        alt: `${companyData.companyName} - ${companyData.tagline}`
+      }
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: companyData.companyName,
+    description: companyData.tagline,
+    images: ['/og-image.svg'],
+  }
 };
 
 export default function RootLayout({
