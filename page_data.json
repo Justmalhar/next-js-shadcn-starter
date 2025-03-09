@@ -1,0 +1,190 @@
+{
+  "about": {
+    "title": "About ChatScale",
+    "subtitle": "Our mission is to transform businesses through intelligent AI chatbots",
+    "hero": {
+      "title": "We're on a mission to revolutionize customer interactions",
+      "description": "Founded in 2020, ChatScale has been at the forefront of conversational AI technology, helping businesses of all sizes transform their customer engagement strategies.",
+      "image": "/about-hero.png"
+    },
+    "sections": [
+      {
+        "title": "Our Story",
+        "content": "ChatScale was founded by a team of AI researchers and customer experience experts who saw the potential for conversational AI to transform how businesses interact with their customers. What started as a small project has grown into a comprehensive platform serving over 100 businesses worldwide.",
+        "image": "/about-story.jpg"
+      },
+      {
+        "title": "Our Values",
+        "content": "We believe in creating technology that enhances human connections rather than replacing them. Our AI solutions are designed to handle routine tasks so your team can focus on what matters most: building meaningful relationships with your customers.",
+        "image": "/about-values.jpg"
+      },
+      {
+        "title": "Our Team",
+        "content": "Our diverse team brings together expertise in artificial intelligence, natural language processing, customer experience, and business strategy. We're united by our passion for creating technology that makes a real difference for businesses and their customers.",
+        "image": "/about-team.jpg"
+      }
+    ],
+    "stats": [
+      {
+        "value": "3+",
+        "label": "Years in business"
+      },
+      {
+        "value": "115+",
+        "label": "Happy clients"
+      },
+      {
+        "value": "98%",
+        "label": "Customer satisfaction"
+      },
+      {
+        "value": "24/7",
+        "label": "Support availability"
+      }
+    ],
+    "team": [
+      {
+        "name": "Sarah Johnson",
+        "position": "CEO & Co-founder",
+        "bio": "Former AI researcher with a passion for human-centered technology",
+        "image": "/team/sarah-johnson.jpg"
+      },
+      {
+        "name": "Michael Chen",
+        "position": "CTO & Co-founder",
+        "bio": "NLP expert with 10+ years experience in conversational AI",
+        "image": "/team/michael-chen.jpg"
+      },
+      {
+        "name": "Jessica Williams",
+        "position": "Head of Customer Success",
+        "bio": "Customer experience strategist focused on measurable outcomes",
+        "image": "/team/jessica-williams.jpg"
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive AI chatbot solutions for your business",
+    "hero": {
+      "title": "AI-powered solutions tailored to your business needs",
+      "description": "We offer a range of services designed to help you implement and optimize AI chatbots for your specific business requirements.",
+      "image": "/services-hero.png"
+    },
+    "servicesList": [
+      {
+        "title": "Customer Support Automation",
+        "description": "Handle common inquiries 24/7 with intelligent chatbots that learn from every interaction.",
+        "features": [
+          "24/7 availability",
+          "Multilingual support",
+          "Seamless human handoff",
+          "Continuous learning"
+        ],
+        "icon": "Headphones",
+        "image": "/services/support-automation.jpg"
+      },
+      {
+        "title": "Lead Generation Bots",
+        "description": "Qualify leads and collect information automatically to boost your sales pipeline.",
+        "features": [
+          "Custom qualification criteria",
+          "CRM integration",
+          "Lead scoring",
+          "Appointment scheduling"
+        ],
+        "icon": "Share2",
+        "image": "/services/lead-generation.jpg"
+      },
+      {
+        "title": "Multi-channel Deployment",
+        "description": "Deploy your AI chatbot across website, mobile apps, and messaging platforms for consistent support.",
+        "features": [
+          "Website integration",
+          "Mobile app support",
+          "Social media platforms",
+          "Messaging apps"
+        ],
+        "icon": "Monitor",
+        "image": "/services/multi-channel.jpg"
+      },
+      {
+        "title": "Conversational Commerce",
+        "description": "Enable customers to browse products, get recommendations, and complete purchases through natural conversation.",
+        "features": [
+          "Product recommendations",
+          "Secure checkout",
+          "Order tracking",
+          "Personalized offers"
+        ],
+        "icon": "Video",
+        "image": "/services/conversational-commerce.jpg"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team",
+    "hero": {
+      "title": "Let's start a conversation",
+      "description": "We'd love to hear from you. Whether you have a question about our services, pricing, or just want to learn more about how we can help your business, our team is ready to answer all your questions.",
+      "image": "/contact-hero.png"
+    },
+    "contactInfo": {
+      "email": "hello@chatscale.ai",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 AI Boulevard, San Francisco, CA 94105",
+      "hours": "Monday - Friday: 9am - 6pm PST"
+    },
+    "formFields": [
+      {
+        "name": "name",
+        "label": "Full Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Email Address",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "company",
+        "label": "Company Name",
+        "type": "text",
+        "required": false
+      },
+      {
+        "name": "message",
+        "label": "Message",
+        "type": "textarea",
+        "required": true
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Insights and updates from our team",
+    "hero": {
+      "title": "Latest from our blog",
+      "description": "Stay up to date with the latest trends in AI chatbots, customer experience, and more.",
+      "image": "/blog-hero.png"
+    },
+    "featuredPost": {
+      "title": "The Future of Customer Service: AI and Human Collaboration",
+      "excerpt": "Discover how the most successful businesses are combining AI chatbots with human agents to create superior customer experiences.",
+      "date": "2023-05-15",
+      "author": "Sarah Johnson",
+      "image": "/blog/featured-post.jpg",
+      "slug": "future-of-customer-service"
+    },
+    "categories": [
+      "AI Technology",
+      "Customer Experience",
+      "Case Studies",
+      "Industry Trends",
+      "Product Updates"
+    ]
+  }
+} 

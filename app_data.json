@@ -1,0 +1,155 @@
+{
+  "companyName": "ChatScale",
+  "tagline": "Transforming businesses through intelligent AI chatbots",
+  "hero": {
+    "title": "Ready to transform your business with AI chatbots?",
+    "subtitle": "",
+    "description": "If you want to achieve ground-breaking efficiency with improved customer engagement and support automation, then you're in the right place.",
+    "ctaText": "Book a demo",
+    "ctaLink": "/book-demo",
+    "secondaryCtaText": "Learn More",
+    "secondaryCtaLink": "/learn-more",
+    "image": "/hero-gradient.png",
+    "clientCount": "115+ happy clients"
+  },
+  "features": [
+    {
+      "title": "Intelligent Conversation Design",
+      "description": "We develop data-driven conversation flows tailored to your specific business needs and customer interactions.",
+      "icon": "Target",
+      "link": "/services/conversation-design"
+    },
+    {
+      "title": "Custom AI Training",
+      "description": "Our AI experts train your chatbot with industry-specific knowledge to deliver accurate and helpful responses.",
+      "icon": "Paintbrush",
+      "link": "/services/ai-training"
+    },
+    {
+      "title": "Performance Analytics",
+      "description": "Continuous monitoring and optimization to ensure your chatbot delivers maximum value and ROI.",
+      "icon": "BarChart",
+      "link": "/services/analytics"
+    },
+    {
+      "title": "Transparent Reporting",
+      "description": "Detailed analytics and reporting that show exactly how your chatbot is performing and improving customer satisfaction.",
+      "icon": "FileText",
+      "link": "/services/reporting"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Their AI chatbot increased our customer response rate by 87% while reducing support costs by 43%.",
+      "author": "Sarah Johnson",
+      "position": "Customer Experience Director, TechCorp",
+      "avatar": "/avatars/sarah-johnson.jpg"
+    },
+    {
+      "quote": "The ROI we've seen from implementing their chatbot solution has been incredible. Best investment we've made.",
+      "author": "Michael Chen",
+      "position": "CEO, GrowthBrand",
+      "avatar": "/avatars/michael-chen.jpg"
+    },
+    {
+      "quote": "They understand our customers better than we do. Our support satisfaction scores have never been higher.",
+      "author": "Jessica Williams",
+      "position": "CMO, Enterprise Solutions",
+      "avatar": "/avatars/jessica-williams.jpg"
+    }
+  ],
+  "services": [
+    {
+      "title": "Customer Support Automation",
+      "description": "Handle common inquiries 24/7 with intelligent chatbots that learn from every interaction.",
+      "icon": "Headphones",
+      "link": "/services/support-automation"
+    },
+    {
+      "title": "Lead Generation Bots",
+      "description": "Qualify leads and collect information automatically to boost your sales pipeline.",
+      "icon": "Share2",
+      "link": "/services/lead-generation"
+    },
+    {
+      "title": "Multi-channel Deployment",
+      "description": "Deploy your AI chatbot across website, mobile apps, and messaging platforms for consistent support.",
+      "icon": "Monitor",
+      "link": "/services/multi-channel"
+    },
+    {
+      "title": "Conversational Commerce",
+      "description": "Enable customers to browse products, get recommendations, and complete purchases through natural conversation.",
+      "icon": "Video",
+      "link": "/services/conversational-commerce"
+    }
+  ],
+  "cta": {
+    "title": "Ready to transform your customer experience?",
+    "description": "You're in good hands.",
+    "buttonText": "Book a demo",
+    "buttonLink": "/book-demo",
+    "secondaryText": "Learn More",
+    "secondaryLink": "/learn-more"
+  },
+  "navigation": {
+    "logo": "/logo.svg",
+    "links": [
+      { "text": "About", "url": "/about" },
+      { "text": "Blog", "url": "/blog" },
+      { "text": "Services", "url": "/services" },
+      { "text": "Docs", "url": "/docs", "hasDropdown": true, "dropdownItems": [
+        { "text": "Getting Started", "url": "/docs/getting-started" },
+        { "text": "API Reference", "url": "/docs/api-reference" },
+        { "text": "Guides", "url": "/docs/guides" },
+        { "text": "FAQ", "url": "/docs/faq" }
+        ]
+    },
+    { "text": "Contact", "url": "/contact" }
+  ],
+    "ctaButton": {
+      "text": "Book a demo",
+      "url": "/book-demo"
+    }
+  },
+  "footer": {
+    "companyName": "ChatScale",
+    "tagline": "Transforming businesses through intelligent AI chatbots",
+    "copyright": "© 2023 ChatScale. All rights reserved.",
+    "links": [
+      {
+        "title": "Services",
+        "items": [
+          { "text": "Support Automation", "url": "/services/support-automation" },
+          { "text": "Lead Generation", "url": "/services/lead-generation" },
+          { "text": "Multi-channel Deployment", "url": "/services/multi-channel" },
+          { "text": "Conversational Commerce", "url": "/services/conversational-commerce" }
+        ]
+      },
+      {
+        "title": "Company",
+        "items": [
+          { "text": "About", "url": "/about" },
+          { "text": "Process", "url": "/process" },
+          { "text": "Blog", "url": "/blog" },
+          { "text": "Contact", "url": "/contact" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "items": [
+          { "text": "Case Studies", "url": "/case-studies" },
+          { "text": "Guides", "url": "/guides" },
+          { "text": "FAQ", "url": "/faq" },
+          { "text": "Privacy", "url": "/privacy" }
+        ]
+      }
+    ],
+    "socialLinks": [
+      { "platform": "Twitter", "icon": "Twitter", "url": "https://twitter.com" },
+      { "platform": "LinkedIn", "icon": "Linkedin", "url": "https://linkedin.com" },
+      { "platform": "Instagram", "icon": "Instagram", "url": "https://instagram.com" },
+      { "platform": "Facebook", "icon": "Facebook", "url": "https://facebook.com" }
+    ]
+  }
+}

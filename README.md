@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Landing Page Template with shadcn/ui
+
+This is a modern landing page template built with Next.js and shadcn/ui components. The landing page is dynamically populated from a JSON file, making it easy to customize without changing the code.
+
+## Features
+
+- 🚀 Built with Next.js 15
+- 🎨 Styled with Tailwind CSS
+- 🧩 Uses shadcn/ui components
+- 📱 Fully responsive design
+- 🌙 Dark mode support
+- 📄 Content loaded from JSON file
+- 🔄 Easy to customize
 
 ## Getting Started
 
@@ -16,18 +28,49 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Customizing the Landing Page
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The landing page content is loaded from the `app_data.json` file in the root directory. You can customize the content by editing this file.
+
+### JSON Structure
+
+The JSON file contains the following sections:
+
+- **Hero**: The main banner section at the top of the page
+- **Features**: Highlights of your product or service
+- **Testimonials**: Customer reviews
+- **Pricing**: Pricing plans
+- **CTA**: Call-to-action section
+- **Footer**: Footer links and information
+
+### Adding Images
+
+Place your images in the `public` directory:
+
+- Hero image: `/public/hero-image.jpg`
+- Avatar images: `/public/avatars/[name].jpg`
+
+## Adding More shadcn Components
+
+You can add more shadcn components using the following command:
+
+```bash
+npx shadcn@latest add [component-name]
+```
+
+For example:
+
+```bash
+npx shadcn@latest add accordion
+```
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this template:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [shadcn/ui Documentation](https://ui.shadcn.com)
 
 ## Deploy on Vercel
 
